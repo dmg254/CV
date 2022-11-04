@@ -20,7 +20,7 @@ padding-bottom: 30px;
 
 .navbar{
     position: fixed;
-    background-color: #222;
+    background-color: #1432BA;
      top: 0;
      left: 0;
      right: 0;
@@ -130,7 +130,7 @@ padding-bottom: 30px;
  }
 
  #footer{
-    background-color: rgba(0, 0, 0, 0.2) ;
+    background-color: #00BFFF ;
    text-align: center;
    padding: 7% 15% ;
  }
@@ -144,6 +144,30 @@ padding-bottom: 30px;
    padding-bottom: 15px;
  }
 
- #skills{
+ #content{
+    padding-top: 50px;
     padding-bottom: 50px;
+ }
+
+ #skills{
+    padding-top: 50px;
+    padding-bottom: 50px;
+ }
+  
+ #Service{
+    background-color: #0E61D1;
+    color: #fff;
+ }
+
+ .fa-rocket, .fa-gears, .fa-cart-shopping{
+    color: #00BFFF;
+ }
+ .thumb-nail{
+   text-align: center;
+    width: 20%;
+    margin: 20px;
+    border-radius: 100%;
+    
+
+/*background: url(matheus_about.png);*/
  }
