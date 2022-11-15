@@ -20,12 +20,23 @@ padding-bottom: 30px;
 
 .navbar{
     position: fixed;
-    background-color: rgba(0, 89, 222, 0.88);
+    background-color:#0F052F;
      left: 0;
      right: 0;
      transition: all .3s ease-in-out;
 }
+#logo {
+    display: inline-block;
+    margin: auto; /* margin: 20px was off */
+  
+    height: 60px;;
+    width: 80%; /* correct proportions to specified height */
+   
+}
 
+.navbar-toggler{
+    color: #43D9B8;
+}
 .navbar .container-fluid{ 
     display: flex;
     justify-content: space-between;
@@ -41,6 +52,10 @@ padding-bottom: 30px;
     justify-content: center;
 }
 
+.nav-link active{
+    color: #43D9B8;
+}
+
 .navbar a{
     color: #fff;
     text-decoration: none;
@@ -54,8 +69,10 @@ padding-bottom: 30px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3) ;
 }
 .navbar.active a {
-    color: black;
+    color:black;
 }
+
+
 
 .navbar.active .container-fluid{
     padding: 10px 0;
@@ -63,14 +80,14 @@ padding-bottom: 30px;
 }
 
 .navbar a.current, .nav a:hover{
-    color: brown; 
+    color: #43D9B8;
     font-weight: bold;
 }
 /*background-image: url(https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
 */
 
 
-.hero{
+.head{
    background-image: url(http://enginess.io/assets/enginess/images/insights/2015/10/web-development-e1444737604137.jpg);
    background-repeat: no-repeat;
    background-size: cover;
@@ -82,12 +99,11 @@ padding-bottom: 30px;
    align-items: center;
    text-align: center;
    Position: relative;
-   margin-bottom: 20px; 
-   z-index:-2;
+    z-index:-2;
 
 }
 /* (ghost elemnt to style)Using a  before pseudo selector instead of adding an html element for the overlay*/
-.hero::before{
+.head::before{
     content: '';
     position: absolute;
     top: 0;
@@ -105,11 +121,11 @@ padding-bottom: 30px;
     color: #00BFFF;
 }
 
-.hero h1{
+.head h1{
     font-size: 46px;
     margin: -20px 0 20px;
 }
- .hero p {
+ .head p {
     font-size: 20px;
     letter-spacing: 1px;
  }
@@ -122,8 +138,10 @@ padding-bottom: 30px;
  
  .content p{
     color:#555 ;
-    line-height: 30px;
+    line-height: 50px;
     letter-spacing:1.2px ;
+    text-align: center;
+    
      
  }
 
@@ -132,44 +150,80 @@ padding-bottom: 30px;
     padding: 5%;
  }
 
+ .dark-section{
+    background-color: #0F052F ;
+ }
+
+ .white-section{
+    background-color: rgba(0, 0, 0, 0.1);
+ }
+
  #footer{
-    background-color: #00BFFF ;
-   text-align: center;
+    text-align: center;
    padding: 7% 15% ;
  }
 
  .social-icon{
     padding: 20px 10px;
-    size: 5rem;
+    size: 20px;
+    color: #43D9B8;
  }
-
+.fa-phone{
+    color: #43D9B8;
+}
 .row {
    padding-bottom: 15px;
  }
+ .Copyright{
+    color: #fff;
+ }
 
  #content{
-    padding-top: 50px;
-    padding-bottom: 50px;
+    margin-top: 0%;
+    
+   
  }
 
  #skills{
     padding-top: 50px;
     padding-bottom: 50px;
  }
+
+ #skills .tools h3{
+    text-align: center;
+ }
+ h6{
+    margin: 7% 7% 0;
+ }
   
  #Service{
-    background-color: #0E61D1;
+    background-color: #0F052F;
     color: #fff;
+    margin-top: 20%;
+    
  }
 
+ #Service p{
+    color: #222;
+ }
+
+
+
+ #collapseWidthExample .btn-primary{
+   margin: 5% 3% 0;
+ }
+
+
+
  .fa-rocket, .fa-gears, .fa-cart-shopping{
-    color: #00BFFF;
+    color: #43D9B8;
  }
  .thumb-nail{
    text-align: center;
     width: 20%;
     margin: 20px;
     border-radius: 100%;
+    margin-top: 10%;
     
 
 /*background: url(matheus_about.png);*/
