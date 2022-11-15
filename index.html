@@ -25,14 +25,14 @@
    
     <nav class="nav navbar sticky-top navbar-expand-lg ">
   <div class="container-fluid ">
-    <a class="navbar-brand" href="#">DMG TECH</a>
+    <a class="navbar-brand" href="#" ><image id="logo" src= 'Images/LOGO-DMG2.jpg'> </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarScroll">
       <ul class="navbar-nav ms-auto ;">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#content">About</a>
+          <a class="nav-link " aria-current="page" href="#content">About</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#Service">Services</a>
@@ -64,16 +64,14 @@
         </div>
     </nav> -->
 
-    <div class="hero">
+    <div class="head">
       <div class="row">
     <div class="container col-lg-6">
         <h1 class="text-animate">Hello there I'm DENNIS MUTUMA</h1>
         <P >A Web developer from Nairobi Kenya.I enjoy building everything from small business sites to rich interactive web apps.
-          If you are a small business seeking a web presence or an employer seeking to hire,you can<br>  
-          <a href="#footer"><button type="button" class="btn btn-primary"
-        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .20rem; --bs-btn-font-size: .85rem;">
-  Get in touch
-</button></a>                      
+          If you are a small business seeking a web presence or an employer seeking to hire,you can<br>
+          <button type="button" class="btn btn-primary active" data-bs-toggle="button" aria-pressed="true">Get in touch</button>  
+                               
       </P>
     </div>
   </div>
@@ -90,8 +88,9 @@
           I don’t like to define myself by the work I’ve done. I define myself by the work I want to do. <br>Fueled by high energy levels and boundless enthusiasm, 
           I’m easily inspired and more then willing to follow my fascinations wherever they take me.
            I’m passionate, expressive, multi-talented spirit with a natural ability to entertain and inspire. 
-          I’m never satisfied to just come up with ideas. Instead I have an almost impulsive need to act on them. My abundant energy fuels me in the pursuit of many interests, hobbies, areas of study and creative endeavors. I’m a fast learner, able to pick up new skills and juggle different projects and roles with relative ease.
+          I’m never satisfied to just come up with ideas. Instead I have an almost impulsive need to act on them.<br> My abundant energy fuels me in the pursuit of many interests, hobbies, areas of study and creative endeavors. I’m a fast learner, able to pick up new skills and juggle different projects and roles with relative ease.
            I like to develop expertise in a number of areas over the course of my life and career.</p>
+           
           </div>
 
     <!--Services
@@ -112,20 +111,42 @@
 </div>
     </section>-->
 
-    <section class="white-section" id="Service">
+    <section class="dark-section" id="Service">
       <div class="container-fluid">
           <div class="row">
           <div class="Service-box col-lg-4">
             <i class="fa-solid fa-gears fa-4x"></i>
             <h3 class="Service-title">Design & Development</h3>
-            <p>From logo design to full Development.</p>
+            <p>
+              <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                Learn more
+              </button>
+            </p>
+            <div style="min-height: 120px;">
+              <div class="collapse collapse-horizontal" id="collapseWidthExample">
+                <div class="card card-body" style="width: 300px;">
+                  <p>  On the Design part I value simple content structure, clean design patterns, and thoughtful interactions.I like to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
+                </div>
+              </div>
+            </div>
+            <p></p>
           </div>
-          
+         
           <div class="Service-box col-lg-4">
             <i class="fa-solid fa-cart-shopping fa-4x"></i>
             <h3>E-commerce </h3>
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+              Learn more
+            </button>
+          </p>
+          <div style="min-height: 120px;">
+            <div class="collapse collapse-horizontal" id="collapseWidthExample">
+              <div class="card card-body" style="width: 300px;">
+                <p>  On the Design part I value simple content structure, clean design patterns, and thoughtful interactions.I like to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
+              </div>
+            </div>
+          </div>
             
-            <p>Get a custom  e-commerce shop .</p>
           </div>
 
           <div class="Service-box col-lg-4">
@@ -140,11 +161,20 @@
       </div>
         </section>
         
-        <section id="skills">
+        <section class=' white-section' id="skills">
         <div class="container-fluid">
           
-        
+        <div class="row">
+          <div class="skills col-lg-6">
           <h3>Skills</h3>
+        </div>
+
+        <!--  <div class="tools col-lg-6 col-md-12">
+            <h3>Tools</h3>
+            <ul>
+              <li> Figma</li>
+            </ul>
+          </div> -->
     <div class="row">
         <h6> HTML </h6>  
         <div class="progress col-lg-6">
@@ -172,14 +202,23 @@
             
             <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">80%</div>
           </div> 
-        </div>
-            
-            
        
         
+        </div>
+      
+      
+      </div>
+
+     
+      
+      
+
+      </div>
+      
+
+        <H6><a href="">Download Resume</a></H6>
+            
     
-        
-        
         
       </div>
         
@@ -188,13 +227,14 @@
     <!--Footer-->
 
     <footer class="dark-section" id="footer">
+      <button type="button" class="btn btn-primary active" data-bs-toggle="button" aria-pressed="true">Get in touch</button>
       <div class="container-fluid">
-       <i class=" social-icon fa-brands fa-twitter"></i>
+        <a href=" https://twitter.com/mutuma_dennisG"> <i class=" social-icon fa-brands fa-twitter"></i></a>
        <i class=" social-icon fa-brands fa-github"></i>
        <i class=" social-icon fa-solid fa-envelope"></i>
-       <i class=" social-icon fa-brands fa-linkedin"></i>
+       <a href="https://www.linkedin.com/in/dennis-mutuma-gikuyu-a7919897/"><i class=" social-icon fa-brands fa-linkedin"></a></i>
        <button type="button" class="btn btn-outline-dark"><i class="fa-solid fa-phone"></i> 0705885546</button>
-       <p>© Copyright 2022 DMG-dev</p>
+       <p class="Copyright">© Copyright 2022 DMG-dev</p>
      </div>
      </footer>
  
